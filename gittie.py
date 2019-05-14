@@ -1,4 +1,6 @@
-def introduce():
-    print("Hello, I'm Gittie!")
+def introduce(howManyTimes):
 
-introduce()
+    for i in range(howManyTimes):
+        print(str(i)+" Hello, I'm Gittie!\n")
+
+introduce(13)
