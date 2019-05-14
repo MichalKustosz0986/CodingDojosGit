@@ -6,7 +6,7 @@ def introduce(howManyTimes):
 
 introduce(13)
 
-def shout()
+def shout():
     print("AAA")
 
-shout
+shout()
